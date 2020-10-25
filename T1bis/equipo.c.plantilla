@@ -1,0 +1,13 @@
+#include <nSystem.h>
+
+#include "equipo.h"
+
+...
+
+void init_equipo(void) {
+  ...
+}
+
+char **hay_equipo(char *nom) {
+  ...
+}
