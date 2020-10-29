@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a43f399-6c84-4f2f-aaf6-35a0a0310a18" name="Default Changelist" comment="" />
+    <list default="true" id="8a43f399-6c84-4f2f-aaf6-35a0a0310a18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T2/pub.c" beforeDir="false" afterPath="$PROJECT_DIR$/T2/pub.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +47,6 @@
       <recent name="$PROJECT_DIR$/T1bis" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +58,9 @@
       <workItem from="1601770185797" duration="5414000" />
       <workItem from="1601822215884" duration="1898000" />
       <workItem from="1602118086390" duration="18000" />
+      <workItem from="1603635780001" duration="4239000" />
+      <workItem from="1603717039368" duration="20093000" />
+      <workItem from="1603763938616" duration="120000" />
     </task>
     <servers />
   </component>
@@ -73,9 +72,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="413" y="198" width="596" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1601771810896" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602118101543">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603764056839">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1602118101543" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1603764056839" />
   </component>
 </project>
