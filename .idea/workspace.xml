@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a43f399-6c84-4f2f-aaf6-35a0a0310a18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ctl/p1a.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ctl/p1b.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/T2/pub.c" beforeDir="false" afterPath="$PROJECT_DIR$/T2/pub.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Prog-comp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/nsystem64-beta3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,6 +44,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Ctl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/T1bis" />
     </key>
@@ -61,6 +65,10 @@
       <workItem from="1603635780001" duration="4239000" />
       <workItem from="1603717039368" duration="20093000" />
       <workItem from="1603763938616" duration="120000" />
+      <workItem from="1605123703612" duration="9899000" />
+      <workItem from="1605135009574" duration="3000" />
+      <workItem from="1605135818215" duration="1049000" />
+      <workItem from="1605190338296" duration="25000" />
     </task>
     <servers />
   </component>
@@ -72,9 +80,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="413" y="198" width="596" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1601771810896" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603764056839">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="502" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605190360786">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1603764056839" />
+    <state x="502" y="154" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1605190360786" />
   </component>
 </project>

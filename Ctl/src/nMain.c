@@ -19,7 +19,8 @@ int main(int argc, char **argv) {
     ProcessInit();
     TimeInit();
     IOInit();
-    H2oInit();
+    void pedirInit();
+    pedirInit();
 
 #ifdef TRAPINTS
     TrapInts();

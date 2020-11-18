@@ -25,13 +25,8 @@ struct Task { // Descriptor de una tarea
   union { void *msg; int rc; } send; // sirve para intercambio de info
   int wake_time;            // Tiempo maximo de espera de un nReceive
 
-  /* Para las moleculas de agua */
-  void *atomo;
-  nH2o molecula;
-
+  int num;
 };
-
-void H2oInit();
 
 #define NOVOID_NTASK
 
@@ -51,18 +46,16 @@ void H2oInit();
 #define WAIT_COND 10  // esta bloqueada en una condicion (nWaitCondition)
 #define WAIT_COND_TIMEOUT 11 // esta bloqueado en un monitor con timeout
 #define WAIT_SLEEP 12 // esta dormida en nSleep */
+#define WAIT_PEDIR 13
 
 #define STATUS_END WAIT_SLEEP
 
 // Agregar nuevos estados como STATUS_END+1, STATUS_END+2, ...
-#define WAIT_H STATUS_END+1 // Espera una molecula de hidrogeno
-#define WAIT_O STATUS_END+2 // Espera molecula de oxigeno
-#define WAIT_O_TIMEOUT STATUS_END+3 // Espera oxigeno con timeout
 
 #define STATUS_LIST {"READY", "ZOMBIE", "WAIT_TASK", "WAIT_REPLY", \
                      "WAIT_SEND", "WAIT_SEND_TIMEOUT", "WAIT_READ", \
                      "WAIT_WRITE", "WAIT_SEM", "WAIT_MON", "WAIT_COND", \
-                     "WAIT_COND_TIMEOUT", "WAIT_SLEEP", "WAIT_H", "WAIT_O", "WAIT_O_TIMEOUT" }
+                     "WAIT_COND_TIMEOUT", "WAIT_SLEEP" }
 
 /*
  * Prologo y Epilogo:
